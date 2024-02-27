@@ -318,7 +318,65 @@
     {"tag": "fact-32",
         "patterns": ["What's the difference between sadness and depression?", "difference between sadness and depression"],
         "responses": ["Sadness is a normal reaction to a loss, disappointment, problems, or other difficult situations. Feeling sad from time to time is just another part of being human. In these cases, feelings of sadness go away quickly and you can go about your daily life. Other ways to talk about sadness might be feeling low, feeling down, or feeling blue.A person may say they are feeling depressed, but if it goes away on its own and doesn't impact life in a big way, it probably isn't the illness of depression. Depression is a mental illness that affects your mood, the way you understand yourself, and the way you understand and relate to things around you. It can also go by different names, such as clinical depression, major depressive disorder, or major depression. Depression can come up for no reason, and it lasts for a long time. It's much more than sadness or low mood. People who experience depression may feel worthless or hopeless. They may feel unreasonable guilty. Some people may experience depression as anger or irritability. It may be hard to concentrate or make decisions. Most people lose interest in things that they used to enjoy and may isolate themselves from others. There are also physical signs of depression, such as problems with sleep, appetite and energy and unexplainable aches or pains. Some may experience difficult thoughts about death or ending their life (suicide). Depression lasts longer than two weeks, doesn't usually go away on its own, and impacts your life. It's a real illness, and it is very treatable. It's important to seek help if you're concerned about depression."]
+    },
+    {
+        "tag": "exercise",
+        "patterns": ["Tell me about the benefits of exercise", "Why should I exercise?", "What are some good exercises?"],
+        "responses": ["Exercise has many benefits, including improved heart health, increased strength and flexibility, reduced stress, and improved mood.", "Regular exercise can help you maintain a healthy weight, reduce your risk of chronic diseases, and promote overall health.", "There are many great exercises to try. Some good ones to start with include walking, cycling, swimming, yoga, and weight lifting."]
+    },
+    {
+        "tag": "healthy_eating",
+        "patterns": ["What should I eat to stay healthy?", "Tell me about a healthy diet", "What are some healthy foods?"],
+        "responses": ["A healthy diet includes a variety of fruits and vegetables, whole grains, lean proteins, and healthy fats.", "Try to limit your intake of processed foods, sugary drinks, and high-sodium foods.", "Some healthy foods to incorporate into your diet include leafy greens, berries, lean meats, fish, whole grains, and nuts."]
+    },
+    {
+        "tag": "stress_management",
+        "patterns": ["How can I manage stress?", "Tell me some stress management techniques", "I'm feeling stressed, what should I do?"],
+        "responses": ["There are many ways to manage stress. Some techniques include deep breathing, meditation, yoga, and regular exercise.", "Try to identify the sources of your stress and find ways to minimize their impact.", "Make sure to take time for yourself each day, even if it's just a few minutes. This could be reading a book, taking a walk, or listening to your favorite music."]
+    },
+    {
+        "tag": "self_care",
+        "patterns": ["How can I take care of myself?", "What are some self-care tips?", "Tell me about self-care"],
+        "responses": ["Self-care is important for maintaining a healthy relationship with yourself. It means doing things to take care of our minds, bodies, and souls by engaging in activities that promote well-being and reduce stress. Doing so enhances our ability to live fully, vibrantly, and effectively. The practice of self-care also reminds both you and others that your needs are valid and a priority."]
+    },
+    {
+        "tag": "mindfulness",
+        "patterns": ["What is mindfulness?", "Tell me about mindfulness", "How can I practice mindfulness?"],
+        "responses": ["Mindfulness is the practice of purposely focusing your attention on the present moment—and accepting it without judgment. Mindfulness is now being examined scientifically and has been found to be a key element in stress reduction and overall happiness."]
+    },
+    {
+        "tag": "gratitude",
+        "patterns": ["What is gratitude?", "Why is gratitude important?", "How can I practice gratitude?"],
+        "responses": ["Gratitude is a warm feeling of thankfulness towards the world, or towards specific individuals. The person who feels gratitude is thankful for what they have, and does not constantly seek more."]
+    },
+    {
+        "tag": "journaling",
+        "patterns": ["What is journaling?", "Why should I journal?", "How do I start a journal?"],
+        "responses": ["Journaling is simply writing down your thoughts and feelings to understand them more clearly. And if you struggle with stress, depression, or anxiety, keeping a journal can help you gain control of your emotions and improve your mental health."]
+    },
+    {
+        "tag": "positive_thinking",
+        "patterns": ["How can I think more positively?", "Tell me about positive thinking", "I want to be more optimistic"],
+        "responses": ["Positive thinking involves focusing on the good in any given situation. It can have a big impact on your physical and mental health. One way to think more positively is to practice gratitude. Try to think of three things you're grateful for at the end of each day."]
+    },
+    {
+        "tag": "time_management",
+        "patterns": ["How can I manage my time better?", "I need help with time management", "Do you have any time management tips?"],
+        "responses": ["Effective time management involves planning and executing your tasks in a timely manner. Try making a daily schedule or to-do list. Prioritize your tasks based on their importance and deadlines. Remember to take breaks to avoid burnout."]
+    },
+    {
+        "tag": "confidence",
+        "patterns": ["How can I be more confident?", "I want to improve my self-esteem", "Do you have any tips for boosting confidence?"],
+        "responses": ["Confidence comes from feelings of well-being, acceptance of your body and mind, and belief in your own ability, skills, and experience. One way to boost your confidence is to challenge negative thoughts about yourself. Replace them with more positive affirmations."]
+    },
+    {
+        "tag": "stress_relief",
+        "patterns": ["How can I relieve stress?", "I'm feeling stressed", "Do you have any stress relief tips?"],
+        "responses": ["There are many ways to relieve stress. Physical activities like yoga or exercise can help. So can mind activities like meditation or deep breathing exercises. It's also important to take breaks and make time for hobbies and activities you enjoy."]
     }
+    
+    
+    
 
     ]
 }
