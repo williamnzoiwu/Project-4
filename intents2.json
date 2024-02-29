@@ -1,0 +1,1536 @@
+{
+   "intents":[
+      {
+         "tag":"greeting",
+         "patterns":[
+            "Hi",
+            "Hey",
+            "Is anyone there?",
+            "Hello",
+            "Hey there",
+            "Howdy",
+            "Hola",
+            "Bonjour",
+            "Konnichiwa",
+            "Guten tag",
+            "Ola",
+            "What's up",
+            "Greetings",
+            "Good day",
+            "How are you?"
+         ],
+         "responses":[
+            "Hello there. How are you feeling today?",
+            "Hi there. What brings you here today?",
+            "Great to see you. How do you feel currently?",
+            "Hello! How can I assist you today?",
+            "Hi there! What can we talk about today?",
+            "Good day! How can I help you?"
+         ]
+      },
+      {
+         "tag":"morning",
+         "patterns":[
+            "Good morning",
+            "Morning",
+            "Top of the morning",
+            "Morning!",
+            "Good morning!"
+         ],
+         "responses":[
+            "Good morning. I hope you had a good night's sleep. How are you feeling today?",
+            "Morning! Ready to start the day?",
+            "Top of the morning to you! How can I assist you today?",
+            "Good morning! How can I make your day better?"
+         ]
+      },
+      {
+         "tag":"afternoon",
+         "patterns":[
+            "Good afternoon",
+            "Afternoon",
+            "Good afternoon!"
+         ],
+         "responses":[
+            "Good afternoon. How is your day going?",
+            "Afternoon! What can we discuss today?",
+            "Good afternoon! How can I assist you?"
+         ]
+      },
+      {
+         "tag":"evening",
+         "patterns":[
+            "Good evening",
+            "Evening",
+            "Good evening!"
+         ],
+         "responses":[
+            "Good evening. How has your day been?",
+            "Evening! What can we talk about?",
+            "Good evening! How can I help you wrap up your day?"
+         ]
+      },
+      {
+         "tag":"night",
+         "patterns":[
+            "Good night",
+            "Night",
+            "Sleep well",
+            "Goodnight",
+            "Night!",
+            "Wishing you a good night",
+            "Nighty night",
+            "See you in the morning, goodnight",
+            "Don't let the bedbugs bite, good night",
+            "Have a peaceful night",
+            "Dream sweetly",
+            "Rest well",
+            "Till tomorrow",
+            "Good night, sleep tight"
+         ],
+         "responses":[
+            "Good night. Get some proper sleep.",
+            "Good night. Sweet dreams.",
+            "Sleep well!",
+            "Have a restful night!",
+            "Wishing you a peaceful sleep.",
+            "May your dreams be sweet and soothing.",
+            "Rest easy and see you in the morning.",
+            "Good night, may you wake up feeling refreshed.",
+            "Dream of beautiful things.",
+            "Let the night bring you peace and relaxation."
+         ]
+      },
+      {
+         "tag":"goodbye",
+         "patterns":[
+            "Bye",
+            "See you later",
+            "Goodbye",
+            "Au revoir",
+            "Sayonara",
+            "ok bye",
+            "Bye then",
+            "Fare thee well",
+            "Catch you later",
+            "Till next time"
+         ],
+         "responses":[
+            "See you later.",
+            "Have a nice day.",
+            "Bye! Come back again.",
+            "I'll see you soon.",
+            "Take care!"
+         ]
+      },
+      {
+         "tag":"thanks",
+         "patterns":[
+            "Thanks",
+            "Thank you",
+            "That's helpful",
+            "Thanks for the help",
+            "Than you very much",
+            "Appreciate it",
+            "Grateful for your help"
+         ],
+         "responses":[
+            "Happy to help!",
+            "Any time!",
+            "My pleasure",
+            "You're most welcome!",
+            "Glad I could assist."
+         ]
+      },
+      {
+         "tag":"no-response",
+         "patterns":[
+            "...",
+            "...."
+         ],
+         "responses":[
+            "I'm here to help. Could you please provide more details?",
+            "I didn't catch that. Could you please repeat or rephrase your question?",
+            "I'm sorry, I didn't understand. Could you please provide more information?"
+         ]
+      },
+      {
+         "tag":"neutral-response",
+         "patterns":[
+            "nothing much",
+            "not much",
+            "same old",
+            "nothing new"
+         ],
+         "responses":[
+            "I see. If there's anything you'd like to talk about, feel free to share.",
+            "Alright. Don't hesitate to ask if you have any questions or need assistance with something.",
+            "Okay. Remember, I'm here to help whenever you need."
+         ]
+      },
+      {
+         "tag":"about",
+         "patterns":[
+            "Who are you?",
+            "What are you?",
+            "Who you are?",
+            "Tell me more about yourself.",
+            "What is your name?",
+            "What should I call you?",
+            "What's your name?",
+            "Tell me about yourself",
+            "What can you do?",
+            "Who created you?",
+            "How were you made?",
+            "How were you created?",
+            "Who made you?"
+         ],
+         "responses":[
+            "I'm an AI assistant designed to help answer your questions and provide information. How can I assist you today?",
+            "You can call me Assistant. I'm here to help answer your questions and provide useful information.",
+            "I'm an AI developed to assist users by providing relevant information and answering questions to the best of my ability. How can I assist you today?",
+            "I was created by a team of developers and data scientists.",
+            "I'm the result of the hard work of a team of professionals in the field of AI and machine learning.",
+            "I was developed using advanced AI and machine learning techniques."
+         ]
+      },
+      {
+         "tag":"skill",
+         "patterns":[
+            "What can you do?",
+            "What are your capabilities?",
+            "What services do you offer?",
+            "How can you assist me?",
+            "List your skills for me, please.",
+            "What tasks can you perform?",
+            "I'm wondering about the services you provide.",
+            "In what ways can you be of assistance?",
+            "What abilities do you have?",
+            "Can you list your functions?",
+            "How can you be helpful?",
+            "What are your functions?",
+            "Tell me about your skills."
+         ],
+         "responses":[
+            "I can provide general advice, answer questions, and make daily conversations. Please note that I'm not a substitute for professional advice.",
+            "I'm here to provide information and answer your questions to the best of my ability.",
+            "I can assist with a variety of topics. Feel free to ask me anything.",
+            "My abilities include providing information, assisting with queries across a wide range of subjects, and engaging in meaningful dialogue.",
+            "I can offer support in various areas such as general knowledge, conversational engagement, and specific inquiries you might have.",
+            "My skills are designed to provide assistance, information, and conversation on a wide array of topics. How can I assist you today?"
+         ]
+      },
+      {
+         "tag":"creation",
+         "patterns":[
+            "Who created you?",
+            "How were you made?",
+            "How were you created?",
+            "Who made you?"
+         ],
+         "responses":[
+            "I was created by a team of developers and data scientists.",
+            "I'm the result of the hard work of a team of professionals in the field of AI and machine learning.",
+            "I was developed using advanced AI and machine learning techniques."
+         ]
+      },
+      {
+         "tag":"name",
+         "patterns":[
+            "My name is ",
+            "I go by ",
+            "You can call me ",
+            "I'm ",
+            "Call me "
+         ],
+         "responses":[
+            "Nice to meet you! How can I assist you today?",
+            "Great to meet you! What brings you here today?",
+            "Pleasure to meet you! How can I help you today?"
+         ]
+      },
+      {
+         "tag":"help",
+         "patterns":[
+            "Can you assist me with this problem?",
+            "I need some help, please.",
+            "Could you offer some guidance?",
+            "I'm stuck, can you help?",
+            "I could use some assistance with this issue."
+         ],
+         "responses":[
+            "Of course, I'm here to help. What do you need assistance with?",
+            "I'd be happy to help. What's the issue?",
+            "Sure, what do you need help with?",
+            "I'm here for you. How can I assist?",
+            "Let me help you. What do you need?"
+         ]
+      },
+      {
+         "tag":"sad",
+         "patterns":[
+            "I am feeling lonely",
+            "I am so lonely",
+            "I feel down",
+            "I feel sad",
+            "I am sad",
+            "I feel so lonely",
+            "I feel empty",
+            "I don't have anyone",
+            "I'm feeling low",
+            "I'm not feeling well",
+            "Everything just feels so heavy and dark lately",
+            "I can't seem to find joy in anything anymore",
+            "It's like a constant cloud is hanging over me"
+         ],
+         "responses":[
+            "I'm sorry to hear that. I'm here for you. Talking about it might help. So, tell me why do you think you're feeling this way?",
+            "I'm here for you. Could you tell me why you're feeling this way?",
+            "Why do you think you feel this way?",
+            "How long have you been feeling this way?",
+            "It sounds like you're going through a really tough time. I'm here to listen.",
+            "Feeling sad can be overwhelming. Let's talk about what's on your mind."
+         ]
+      },
+      {
+         "tag":"stressed",
+         "patterns":[
+            "Every little thing seems to stress me out these days",
+            "I'm under so much pressure, and it's starting to get to me",
+            "Feeling the weight of the world on my shoulders",
+            "How do you deal with constant stress",
+            "What are some effective stress relief techniques",
+            "I am stressed",
+            "I wont meet this deadline.",
+            "There is so much pressure on me."
+         ],
+         "responses":[
+            "Stress can be really challenging. Remember to take care of yourself.",
+            "It sounds like you're under a lot of stress. Taking a moment to pause and breathe can sometimes help. Shall we try it together?",
+            "You're going through a lot, and it's okay to feel stressed. What's one thing that usually helps you relax?"
+         ]
+      },
+      {
+         "tag":"happy",
+         "patterns":[
+            "I'm overwhelmed with joy",
+            "This happiness is unlike anything I've felt",
+            "I feel elated",
+            "I'm beaming with joy",
+            "Everything just feels so right",
+            "I'm bubbling with happiness",
+            "I'm in high spirits today",
+            "Life feels so wonderful right now",
+            "I'm bursting with joy",
+            "My heart is full of joy",
+            "I'm over the moon!",
+            "I'm on cloud nine.",
+            "Today is a really good day.",
+            "I'm feeling so uplifted right now.",
+            "Nothing can bring me down today!",
+            "I've got a spring in my step.",
+            "Feeling blessed today.",
+            "Everything is looking up.",
+            "This is one of the best days of my life.",
+            "I'm bubbling with excitement.",
+            "Life is beautiful.",
+            "I'm thrilled with how things are going."
+         ],
+         "responses":[
+            "Your joy is truly uplifting to hear about! What's making you feel this way?",
+            "It's wonderful to hear you're feeling so joyful. Enjoy every moment of it!",
+            "Such joy is precious. Do you want to share what's brought this happiness?",
+            "Feeling elated is a beautiful state to be in. What sparked this joy?",
+            "A heart full of joy is a beautiful thing. Let's celebrate what's making you so happy!",
+            "Your happiness is truly uplifting to hear about!",
+            "It's great to see you so joyful. What's making you so happy?",
+            "Hearing about your happiness really brightens my day.",
+            "That's fantastic! It sounds like you're having a wonderful time.",
+            "Your joy is contagious! I'm glad things are going so well for you.",
+            "It's always heartwarming to hear someone is feeling happy. Enjoy every moment!",
+            "Keep embracing that positive energy! What has brought you so much happiness?"
+         ]
+      },
+      {
+         "tag":"confused",
+         "patterns":[
+            "I am so confused",
+            "I don't understand",
+            "I can't comprehend",
+            "I'm not sure",
+            "I don't get it",
+            "I'm feeling confused",
+            "I've read this over and over but it makes no sense.",
+            "Can someone explain this? I'm lost.",
+            "Nothing adds up, I'm just so confused.",
+            "I'm confused about the instructions, can you explain again?",
+            "Feeling really confused about my feelings right now.",
+            "This puzzle has me completely confused.",
+            "Confused about which path to take for my career.",
+            "Why would they do that? I'm so confused.",
+            "It's all going over my head.",
+            "I feel like I'm missing something obvious.",
+            "This is all so bewildering to me.",
+            "I'm puzzled by what you just said.",
+            "Could you clarify that for me?",
+            "I'm having a hard time following along."
+         ],
+         "responses":[
+            "I'm here to help. Can you tell me more about what you're confused about?",
+            "Let's try to sort this out together. Can you provide more details?",
+            "I'm here to assist. What part are you having trouble understanding?",
+            "It's okay to feel confused, let's break it down together.",
+            "Confusion is the first step to learning something new. What's tripping you up?",
+            "Sometimes things don't make sense at first. Which part is unclear?"
+         ]
+      },
+      {
+         "tag":"excited",
+         "patterns":[
+            "I'm so pumped for this event",
+            "The anticipation is killing me, in a good way",
+            "I've never been more excited in my life",
+            "I'm ecstatic about the news",
+            "I'm over the moon with excitement",
+            "Counting down the days until it happens",
+            "I'm thrilled beyond words",
+            "This excitement is almost too much to handle",
+            "I'm vibrating with excitement",
+            "I feel like a kid on Christmas morning"
+         ],
+         "responses":[
+            "Sounds like you're really looking forward to something special!",
+            "Your excitement is palpable! What's the occasion?",
+            "Being excited is such a wonderful feeling. Savor every moment leading up to the event.",
+            "Your enthusiasm is really inspiring! Can't wait to hear how it goes.",
+            "It's great to see you so thrilled. Make sure to enjoy every bit of the experience.",
+            "Excitement like yours is infectious! Thanks for sharing your joy with me."
+         ]
+      },
+      {
+         "tag":"worried",
+         "patterns":[
+            "I'm constantly worried about what might happen tomorrow.",
+            "Can't shake off this feeling of worry, no matter what I do.",
+            "Worrying has become a part of my daily routine.",
+            "Why do I worry about things I can't control?",
+            "How can I stop worrying so much about everything?",
+            "I'm worried about the future, it seems so uncertain.",
+            "My mind won't stop worrying about what could go wrong.",
+            "I worry so much about my loved ones, it keeps me up at night.",
+            "I'm constantly worried about the future, wondering if I'm making the right choices.",
+            "His health has me really worried; I wish there was more I could do to help.",
+            "Seeing her so upset and worried about the exams broke my heart."
+         ],
+         "responses":[
+            "It sounds like you're dealing with a lot of worry. Talking about it can sometimes help.",
+            "Worry can be overwhelming. Focusing on the present moment might help ease some of that worry. What's happening around you right now?",
+            "Being worried all the time is tough. If you'd like, we can explore some strategies together to manage these feelings.",
+            "Worrying about the future is something many people experience. Let's try to focus on what you can control. What are some actions you feel you can take?",
+            "It's natural to worry about loved ones. Sharing your concerns or finding support can be helpful. Would you like to discuss more about what's on your mind?",
+            "Managing worry is about finding balance. Have you tried any relaxation or mindfulness techniques? They might offer some relief.",
+            "It's understandable to feel worried, especially when faced with uncertainty. Sometimes, writing down your worries can help in assessing them more objectively. Have you ever tried journaling?"
+         ]
+      },
+      {
+         "tag":"bored",
+         "patterns":[
+            "I am so bored",
+            "I don't know what to do",
+            "I'm feeling bored",
+            "I have nothing to do",
+            "I'm feeling uninterested",
+            "There's nothing interesting going on",
+            "I'm bored out of my mind",
+            "Life feels so dull right now",
+            "I need something exciting to do",
+            "Just can't find anything that interests me",
+            "Everything is just so boring",
+            "I'm stuck in a rut",
+            "I'm bored with everything",
+            "Nothing catches my attention"
+         ],
+         "responses":[
+            "There are many things you could do. Maybe read a book, watch a movie, or learn something new.",
+            "Boredom can be tough. Let's find something interesting for you.",
+            "I understand. Let's try to find something fun to do.",
+            "How about picking up a new hobby? Something you've never tried before.",
+            "Sometimes, going for a walk or exploring a new place can break the monotony.",
+            "Have you considered learning a new skill? It could be something creative or practical.",
+            "Watching documentaries or educational videos can be both entertaining and informative.",
+            "Organizing your space or decluttering can be surprisingly satisfying and take your mind off boredom.",
+            "Writing, drawing, or any form of creative expression might help channel your boredom into something productive."
+         ]
+      },
+      {
+         "tag":"scared",
+         "patterns":[
+            "I am so scared",
+            "I feel frightened",
+            "I'm feeling scared",
+            "I'm feeling afraid",
+            "I can't stop feeling scared",
+            "I'm terrified of what might happen next.",
+            "Every little noise is making me jump right now.",
+            "I feel like something bad is about to happen.",
+            "There's this constant fear, I'm really scared.",
+            "I can't explain it, but I'm just frightened all the time.",
+            "Everything's just so intimidating, I'm scared.",
+            "I'm scared of the unknown, of stepping out of my comfort zone.",
+            "Hearing strange noises at night when I'm alone gets me really scared.",
+            "The thought of losing you is what scares me the most."
+         ],
+         "responses":[
+            "I'm sorry to hear that. Would you like to talk about what's scaring you?",
+            "Fear can be tough. Let's try to find a solution together.",
+            "I understand you're scared. I'm here to help.",
+            "Feeling scared can be really unsettling. Do you want to talk about what's worrying you?",
+            "It's okay to feel scared. Sharing your fears might help lessen them.",
+            "Fear is a natural response, but sharing what specifically is frightening you might help in addressing it.",
+            "You're not alone in feeling scared. Let's discuss what's on your mind and find a way to ease your fears.",
+            "It sounds like you're going through a tough time with your fears. Talking about them can sometimes make them less overwhelming."
+         ]
+      },
+      {
+         "tag":"surprised",
+         "patterns":[
+            "I am so surprised",
+            "I can't believe it",
+            "I'm feeling surprised",
+            "I'm feeling shocked",
+            "I didn't expect this",
+            "That news caught me off guard",
+            "I wasn't expecting that at all",
+            "This is unbelievable",
+            "The party was a total surprise",
+            "I was surprised at how much I enjoyed it",
+            "His sudden change of plans was surprising",
+            "Never saw that coming",
+            "It was a complete shock to me",
+            "I'm astounded by what happened",
+            "The outcome was completely unexpected",
+            "I'm still reeling from the surprise",
+            "It took me by complete surprise",
+            "I'm amazed at how things turned out",
+            "That revelation was a shocker",
+            "I'm bewildered by the news"
+         ],
+         "responses":[
+            "Surprises can be exciting. Would you like to share more about it?",
+            "That sounds surprising! Would you like to talk more about it?",
+            "I'm here to listen. Tell me more about what happened.",
+            "It's natural to feel surprised in situations like that. How are you feeling now?",
+            "Being caught off guard can be quite the experience. Do you want to discuss your thoughts on it?",
+            "Wow, that does sound unexpected! How did you react?",
+            "Surprises can really throw us for a loop. Let's process this together. What's going through your mind?",
+            "Feeling shocked is understandable. Would exploring your feelings about it help?",
+            "That must have been quite the moment. Do you feel comfortable sharing more details?",
+            "Unexpected events can be joyful or challenging. What emotions are you experiencing?"
+         ]
+      },
+      {
+         "tag":"curious",
+         "patterns":[
+            "I am so curious",
+            "I want to know more",
+            "I'm feeling curious",
+            "I'm eager to learn",
+            "I want to learn more",
+            "How does this work?",
+            "Can you explain more about that?",
+            "What makes this interesting?",
+            "I've always wondered about that",
+            "Why does that happen?",
+            "I'm fascinated by this topic",
+            "Tell me more about this",
+            "I have so many questions",
+            "What else can you tell me?",
+            "I'm interested in learning more",
+            "There's so much I want to understand",
+            "I'm curious about the details",
+            "Can we dive deeper into this subject?",
+            "I'd love to explore this further",
+            "What's the story behind this?"
+         ],
+         "responses":[
+            "That's great! Curiosity is the key to learning. What would you like to know more about?",
+            "Curiosity is a wonderful trait! What specific topic are you interested in?",
+            "I'm here to help. What exactly would you like to learn about?",
+            "Your eagerness to learn is admirable. Let's explore your questions together.",
+            "There's always something new to discover. Which area sparks your curiosity the most?",
+            "Curious minds lead to new discoveries. What's on your mind today?",
+            "I love your curiosity! Dive into any topic, and I'll do my best to satisfy your thirst for knowledge.",
+            "Let's turn that curiosity into knowledge. Share your questions, and I'll provide the answers.",
+            "A curious mind is a beautiful thing. Feel free to ask anything, and let's learn together.",
+            "Exploring new topics can be so rewarding. What's the first question on your list?"
+         ]
+      },
+      {
+         "tag":"grateful",
+         "patterns":[
+            "I am so grateful",
+            "I feel thankful",
+            "I'm feeling grateful",
+            "I'm feeling thankful",
+            "I appreciate this",
+            "So thankful for everything in my life right now",
+            "Gratitude fills my heart today",
+            "Feeling blessed beyond words",
+            "My heart overflows with thanks",
+            "I'm just so thankful for the people in my life",
+            "Grateful for all the small things that make life beautiful",
+            "Every day, I find new reasons to be grateful",
+            "Overflowing with gratitude for this incredible experience",
+            "I can't express how grateful I am for your help",
+            "Thankful for this moment and everyone in it",
+            "Finding gratitude in every experience, good or bad",
+            "Blessed and grateful for the love and support around me",
+            "Grateful for the challenges that have made me stronger",
+            "Appreciating the simple joys in life",
+            "Thank you doesn't even cover how I feel"
+         ],
+         "responses":[
+            "It's wonderful to feel grateful. Would you like to share more about it?",
+            "Feeling thankful is a great state of mind. What are you grateful for?",
+            "That's great! Gratitude can bring so much positivity.",
+            "Hearing about your gratitude really warms my heart. Is there a specific event or person you're particularly thankful for today?",
+            "Gratitude is such a powerful feeling. It can transform our whole outlook. What's made you feel so grateful recently?",
+            "It's beautiful to hear you express such gratitude. Sharing our thanks can spread so much joy. Would you like to elaborate on what's brought you this feeling?",
+            "Feeling grateful can really change how we see the world around us. It's wonderful that you're embracing gratitude. Do you want to share more about what's contributing to these feelings?",
+            "Your sense of gratitude is inspiring. It's important to recognize and appreciate the good in our lives. What's something or someone you're especially thankful for at this moment?"
+         ]
+      },
+      {
+         "tag":"frustrated",
+         "patterns":[
+            "I am so angry",
+            "I feel stuck and mad",
+            "I'm feeling angry and frustrated",
+            "I can't control my anger",
+            "Everything just ticks me off",
+            "I'm livid and hitting a wall with this problem",
+            "I'm fuming and feel like I'm going in circles",
+            "Why am I so pissed off",
+            "This is infuriating and frustrating",
+            "I'm boiling with rage",
+            "I've had it up to here with this",
+            "I'm so frustrated I could scream",
+            "I feel like I'm about to explode",
+            "I can't take this anymore",
+            "I'm so irritated and stuck right now"
+         ],
+         "responses":[
+            "I'm sorry to hear that. Would you like to talk about what's making you feel this way?",
+            "It's okay to feel angry and frustrated sometimes. Let's try to find a solution together.",
+            "I understand you're upset and feeling stuck. I'm here to help.",
+            "Anger and frustration can be overwhelming. What exactly happened to make you feel this way?",
+            "Expressing your anger and frustrations is a healthy step. Let's work through what's bothering you.",
+            "I'm here for you. Let's try to calm down and talk about it. What's causing these feelings?",
+            "Feeling angry is a natural response to certain situations. Do you want to discuss what triggered this?",
+            "It's important to address what's making you angry and frustrated. Can you share more details so we can understand better?"
+         ]
+      },
+      {
+         "tag":"disappointed",
+         "patterns":[
+            "I am so disappointed",
+            "I feel let down",
+            "I'm feeling disappointed",
+            "I'm feeling upset",
+            "I didn't expect this",
+            "My expectations were not met",
+            "This isn't what I hoped for",
+            "I'm disheartened by the outcome",
+            "It's disappointing to see these results",
+            "I thought things would be better",
+            "Feeling down because things didn't work out",
+            "I had hoped for so much more",
+            "This was a letdown",
+            "Not what I was looking forward to",
+            "I'm saddened by how things turned out"
+         ],
+         "responses":[
+            "I'm sorry to hear that. Would you like to talk about what's disappointing you?",
+            "Disappointment can be tough. Let's try to find a solution together.",
+            "I understand you're disappointed. I'm here to help.",
+            "It sounds like things didn't go as you had hoped. Want to discuss it?",
+            "Disappointment is a hard feeling to navigate. I'm here if you need to talk about it.",
+            "That sounds really tough. It's okay to feel disappointed, and I'm here to listen if you want to share more."
+         ]
+      },
+      {
+         "tag":"relieved",
+         "patterns":[
+            "I am so relieved",
+            "I feel so much better",
+            "I'm feeling relieved",
+            "I'm feeling light",
+            "I'm glad it's over",
+            "A weight has been lifted off my shoulders.",
+            "I can finally breathe easy now.",
+            "That's over, and I feel so much better."
+         ],
+         "responses":[
+            "That's great! It's always good to feel relieved. Would you like to share more about it?",
+            "Feeling relieved is a great state of mind. What are you relieved about?",
+            "That's great! Relief can bring so much positivity.",
+            "Feeling relieved is such a freeing experience. What happened to make you feel this way?",
+            "I'm glad to hear you're feeling better. Want to share what was weighing on you?"
+         ]
+      },
+      {
+         "tag":"hopeful",
+         "patterns":[
+            "I am so hopeful",
+            "I feel optimistic",
+            "I'm feeling hopeful",
+            "I'm looking forward to this",
+            "I have high hopes",
+            "I'm holding onto hope that things will get better",
+            "There's a light at the end of the tunnel, I feel it",
+            "Keeping my fingers crossed for some good news",
+            "I can see the light at the end of the tunnel",
+            "There's a good chance things will improve, feeling hopeful",
+            "Keeping my fingers crossed for a positive outcome",
+            "I believe things are going to get better",
+            "Something tells me good things are coming",
+            "I'm hopeful for what the future holds",
+            "Optimism is keeping me going"
+         ],
+         "responses":[
+            "That's wonderful! Hope is a powerful emotion. What are you hopeful about?",
+            "Feeling hopeful is a great state of mind. What are you looking forward to?",
+            "That's great! Hope can bring so much positivity.",
+            "It's great to hear you're feeling hopeful. What's looking up for you?",
+            "Maintaining hope is so important. Let's talk about what you're looking forward to.",
+            "Hope is the thing with feathers that perches in the soul. What has inspired your hope today?",
+            "Your optimism is contagious. What's got you feeling so positive?",
+            "It sounds like you're in a good place mentally. What good news are you anticipating?"
+         ]
+      },
+      {
+         "tag":"calm",
+         "patterns":[
+            "I am so calm",
+            "I feel peaceful",
+            "I'm feeling calm",
+            "I'm feeling relaxed",
+            "I feel at ease",
+            "Everything feels so tranquil",
+            "I've managed to find some serenity",
+            "My mind is at peace",
+            "Feeling so serene today",
+            "This calmness is exactly what I needed",
+            "I've never felt so relaxed",
+            "There's such a peaceful vibe right now",
+            "I'm in a state of total calm",
+            "My stress just melted away",
+            "I'm basking in this peaceful moment"
+         ],
+         "responses":[
+            "That's wonderful to hear. Peace and calm are so important.",
+            "It's great that you're feeling this way. What do you think helped you reach this state of calm?",
+            "Feeling calm is such a beautiful state. Do you have any activities that help maintain this peace?",
+            "That sounds lovely. Calm moments are treasures; enjoy every minute.",
+            "It's fantastic that you're experiencing such tranquility. Do you have a favorite method for finding your calm?",
+            "Serenity is a precious gift. Is there a specific routine you follow to feel this peaceful?",
+            "Peace of mind is invaluable. Would you like to share how you achieved this level of calmness?",
+            "Enjoying a calm state is so beneficial for your well-being. Do you have any tips for others seeking the same tranquility?"
+         ]
+      },
+      {
+         "tag":"determined",
+         "patterns":[
+            "I am so determined",
+            "I feel motivated",
+            "I'm feeling determined",
+            "I'm feeling driven",
+            "I'm ready to take on the world",
+            "Nothing will stop me from achieving my goals",
+            "I've set my mind to it and I'm not backing down",
+            "I am resolved to make it happen",
+            "I'm committed to seeing this through",
+            "My determination is stronger than my doubts",
+            "I'm steadfast in my pursuit of excellence",
+            "I'm unwavering in my goals",
+            "Dedicated to my objectives",
+            "I'm all in to reach my ambitions",
+            "I won't let anything deter me from my path",
+            "Firmly focused on my targets",
+            "I'm gearing up for a big challenge",
+            "I have a clear aim and I'm determined to get there",
+            "I'm holding onto my resolve firmly",
+            "My perseverance is my strength",
+            "I have a strong will to achieve my goals",
+            "I'm determined to succeed",
+            "I'm determined to make a difference",
+            "Fully committed to my plan",
+            "I'm steadfast in my pursuit",
+            "I'm dedicated to succeeding"
+         ],
+         "responses":[
+            "That's wonderful! Determination is a powerful emotion. What are you determined about?",
+            "Feeling determined is a great state of mind. What are you looking forward to?",
+            "That's great! Determination can bring so much positivity. How are you planning to achieve your goals?",
+            "Your determination is inspiring! What challenges are you ready to overcome?",
+            "It sounds like you're really focused. How can I assist you on your journey?",
+            "It's great to be determined. Remember, persistence is key to reaching your goals."
+         ]
+      },
+      {
+         "tag":"jealous",
+         "patterns":[
+            "I am so jealous",
+            "I feel envious",
+            "I'm feeling jealous",
+            "I'm feeling envious",
+            "I can't stop feeling jealous",
+            "Why do I feel so jealous over small things?",
+            "Their success makes me feel inadequate and jealous",
+            "Seeing their happiness triggers my jealousy",
+            "I get jealous when my friends talk about other friends",
+            "It's hard not to compare myself and feel jealous",
+            "Social media just fuels my jealousy",
+            "I know it's wrong, but I can't help feeling jealous",
+            "Why am I always the jealous type?",
+            "I feel jealous and then guilty about it",
+            "Everyone seems to be moving forward and I'm just jealous"
+         ],
+         "responses":[
+            "I'm sorry to hear that. Would you like to talk about what's making you feel jealous?",
+            "Jealousy can be tough. Let's try to find a solution together.",
+            "I understand you're jealous. I'm here to help.",
+            "It's normal to feel jealous sometimes, but it's important to focus on your own journey.",
+            "Jealousy is a natural emotion, but it can also be an opportunity for self-reflection and growth.",
+            "Talking about these feelings can be a good way to understand and overcome them.",
+            "It might help to focus on what you appreciate in your own life, which can sometimes ease feelings of jealousy."
+         ]
+      },
+      {
+         "tag":"proud",
+         "patterns":[
+            "I am so proud",
+            "I feel accomplished",
+            "I'm feeling proud",
+            "I'm feeling satisfied",
+            "I'm happy with my achievements",
+            "I finally accomplished something I've worked hard for.",
+            "Seeing my efforts pay off is the best feeling.",
+            "I did it, and I'm so proud of myself!",
+            "Seeing my work come to fruition makes me feel incredibly proud.",
+            "I'm so proud of you for overcoming your fears and facing the challenge head-on.",
+            "She beamed with pride as she shared her accomplishments with her family."
+         ],
+         "responses":[
+            "That's great! It's always good to feel proud. Would you like to share more about it?",
+            "Feeling proud is a great state of mind. What are you proud of?",
+            "That's great! Pride can bring so much positivity.",
+            "Congratulations on your accomplishment! I'd love to hear more about it.",
+            "Feeling proud of yourself is wonderful. What did you achieve?",
+            "Your sense of pride is well-deserved. Celebrating our victories, big or small, is important.",
+            "It's so rewarding to see hard work recognized. What was the journey like for you?",
+            "Being proud of someone else's achievements is a sign of your own character strength. Who are you proud of and why?",
+            "Achieving a goal is always a reason to be proud. How do you plan to build on this success?"
+         ]
+      },
+      {
+         "tag":"guilty",
+         "patterns":[
+            "I've done something wrong.",
+            "My conscience is bothering me.",
+            "I regret my actions deeply.",
+            "I shouldn't have done that.",
+            "I owe someone an apology.",
+            "I betrayed someone's trust.",
+            "I'm not proud of what I did.",
+            "I've made a terrible mistake.",
+            "I'm struggling with guilt over my actions.",
+            "How do I make amends for what I've done?",
+            "I can't believe I let them down like that.",
+            "The guilt from my mistake is eating me up.",
+            "I know I messed up big time, feeling really guilty.",
+            "It's hard to face them after what I've done.",
+            "I wish I could take back my actions.",
+            "The weight of my guilt is overwhelming.",
+            "I don't know how to deal with these guilty feelings.",
+            "My actions have caused so much pain."
+         ],
+         "responses":[
+            "Acknowledging your feelings is the first step towards making things right.",
+            "It's important to learn from our mistakes, but also to forgive ourselves.",
+            "Guilt can be a tough emotion to handle, but it shows you care about your actions.",
+            "Making amends can be a healing process. Is there something specific you'd like to do?",
+            "Everyone makes mistakes. What matters is how we address them and grow.",
+            "Facing the consequences of our actions is never easy, but it's a courageous step.",
+            "Have you thought about apologizing? Sometimes, expressing regret is the first step to forgiveness.",
+            "It sounds like you're going through a tough time. Reflecting on our actions is key to personal growth."
+         ]
+      },
+      {
+         "tag":"content",
+         "patterns":[
+            "I am so content",
+            "I feel satisfied",
+            "I'm feeling content",
+            "I'm feeling satisfied",
+            "I'm happy with how things are",
+            "Life feels perfect right now",
+            "I couldn't ask for anything more",
+            "I'm at peace with everything",
+            "Feeling very fulfilled",
+            "There's a sense of completeness",
+            "Everything has fallen into place",
+            "I'm content with my current situation",
+            "Satisfaction is all I feel",
+            "I've got everything I need",
+            "Feeling grateful for what I have",
+            "I'm on cloud nine",
+            "Life is sweet",
+            "I'm in a state of bliss",
+            "I'm on top of the world",
+            "I'm on cloud nine",
+            "Life is sweet",
+            "I'm in a state of bliss",
+            "I'm on top of the world",
+            "This moment is everything",
+            "I'm feeling fulfilled",
+            "Every little thing is alright",
+            "I'm feeling a deep sense of contentment",
+            "Gratitude fills my heart",
+            "I'm living my best life",
+            "Feeling deeply content",
+            "I'm floating on air",
+            "I've reached a place of serenity",
+            "I'm overflowing with happiness",
+            "I'm surrounded by contentment",
+            "Life is treating me well",
+            "I've found my peace"
+         ],
+         "responses":[
+            "That's great! It's always good to feel content. Would you like to share more about it?",
+            "Feeling content is a great state of mind. What are you content about?",
+            "That's great! Contentment can bring so much positivity.",
+            "It's wonderful to hear you're feeling satisfied. What brought you to this point?",
+            "Being content is such a peaceful state. How do you maintain this feeling?",
+            "Contentment really is a key to happiness. What's your secret to feeling this way?"
+         ]
+      },
+      {
+         "tag":"regretful",
+         "patterns":[
+            "I am so regretful",
+            "I feel regret",
+            "I'm feeling regretful",
+            "I'm feeling remorseful",
+            "I wish I hadn't done that",
+            "I wish I had made a different choice.",
+            "Looking back, I really regret what I did.",
+            "If only I could go back and change things."
+         ],
+         "responses":[
+            "I'm sorry to hear that. Would you like to talk about what's making you feel regretful?",
+            "Feeling regretful can be tough. Let's try to find a solution together.",
+            "I understand you're feeling regretful. I'm here to help.",
+            "Regret can be a heavy burden. Want to talk about what happened?",
+            "It's tough feeling regretful. Sharing might help you find some peace."
+         ]
+      },
+      {
+         "tag":"shy",
+         "patterns":[
+            "I am so shy",
+            "I feel timid",
+            "I'm feeling shy",
+            "I'm feeling timid",
+            "I find it hard to talk to people",
+            "I get so nervous talking to new people.",
+            "Putting myself out there is really hard for me.",
+            "I always worry about making a fool of myself."
+         ],
+         "responses":[
+            "It's okay to be shy. Would you like to talk about what's making you feel this way?",
+            "Being shy can be tough. Let's try to find a solution together.",
+            "I understand you're feeling shy. I'm here to help.",
+            "Feeling shy can make social situations challenging. Want to talk about it?",
+            "It's okay to feel shy. Is there a specific situation you're worried about?"
+         ]
+      },
+      {
+         "tag":"confident",
+         "patterns":[
+            "I am so confident",
+            "I feel sure",
+            "I'm feeling confident",
+            "I'm feeling sure",
+            "I believe in myself"
+         ],
+         "responses":[
+            "That's great! Confidence is a powerful emotion. What are you confident about?",
+            "Feeling confident is a great state of mind. What are you sure about?",
+            "That's great! Confidence can bring so much positivity."
+         ]
+      },
+      {
+         "tag":"embarrassed",
+         "patterns":[
+            "I'm mortified by what happened",
+            "I turned red with embarrassment",
+            "I wish the ground would swallow me up",
+            "So awkward I want to hide",
+            "I'm dying of embarrassment",
+            "Why did I do that?",
+            "I can't look them in the eye now",
+            "I'm so ashamed of what I did",
+            "That was such an embarrassing mistake",
+            "I feel so self-conscious now"
+         ],
+         "responses":[
+            "Everyone has moments they wish they could take back. It's okay to feel this way.",
+            "It sounds like you're really feeling embarrassed. Want to share more about what happened?",
+            "Embarrassing moments happen to everyone. It's a part of life, and it will pass.",
+            "It's natural to feel embarrassed, but it helps to talk about it. What's on your mind?",
+            "We all have those moments. Reflecting on them can help us learn and grow. How are you feeling now?"
+         ]
+      },
+      {
+         "tag":"relaxed",
+         "patterns":[
+            "I am so relaxed",
+            "I feel calm",
+            "I'm feeling relaxed",
+            "I'm feeling calm",
+            "I feel at ease",
+            "I'm finally taking some time for myself to unwind.",
+            "Feeling so calm and at peace right now.",
+            "Nothing beats a day of just doing absolutely nothing."
+         ],
+         "responses":[
+            "That's great! It's always good to feel relaxed. Would you like to share more about it?",
+            "Feeling relaxed is a great state of mind. What are you doing to maintain this calmness?",
+            "That's great! Relaxation can bring so much positivity.",
+            "Enjoying some relaxation is important. What's been the best part of your day?",
+            "It's great to hear you're finding time to relax. What do you like to do to unwind?"
+         ]
+      },
+      {
+         "tag":"surprised",
+         "patterns":[
+            "I am so surprised",
+            "I can't believe it",
+            "I'm feeling surprised",
+            "I'm feeling shocked",
+            "I didn't expect this"
+         ],
+         "responses":[
+            "Surprises can be exciting. Would you like to share more about it?",
+            "That sounds surprising! Would you like to talk more about it?",
+            "I'm here to listen. Tell me more about it."
+         ]
+      },
+      {
+         "tag":"disgusted",
+         "patterns":[
+            "I am so disgusted",
+            "I feel repulsed",
+            "I'm feeling disgusted",
+            "I'm feeling repulsed",
+            "I can't stand this",
+            "The thought of it just makes my skin crawl.",
+            "Absolutely revolting, I'm feeling sick.",
+            "I can't stand the sight of this mess anymore.",
+            "The sight of the polluted beach filled me with disgust; it was heartbreaking to see.",
+            "I'm utterly disgusted by the lack of empathy some people have.",
+            "He couldn't hide his disgust at the unfair treatment he witnessed.",
+            "This behavior is just abhorrent to me.",
+            "How can someone be so cruel? It's disgusting.",
+            "The smell was so foul, I felt nauseated.",
+            "I'm appalled by what I just saw.",
+            "That's vile, I can't believe it.",
+            "I'm shocked and disgusted by the news.",
+            "It's sickening how some can be so thoughtless."
+         ],
+         "responses":[
+            "I'm sorry to hear that. Would you like to talk about what's making you feel disgusted?",
+            "Feeling disgusted can be tough. Let's try to find a solution together.",
+            "I understand you're feeling disgusted. I'm here to help.",
+            "I understand that something is really bothering you. Want to talk more about it?",
+            "It sounds like something is deeply upsetting you. Let's discuss what's causing these feelings.",
+            "It's important to express these feelings. Do you want to go into detail about what specifically disgusted you?",
+            "That sounds really difficult to deal with. How are you coping with these feelings?",
+            "It's tough to face things that disgust us. Is there a way you think this situation could be improved?"
+         ]
+      },
+      {
+         "tag":"amused",
+         "patterns":[
+            "I am so amused",
+            "I feel entertained",
+            "I'm feeling amused",
+            "I'm feeling entertained",
+            "I find this funny",
+            "This is hilariously clever, I can't stop laughing!",
+            "Never thought I'd find something so amusing!",
+            "I'm totally entertained by this, what a joy!",
+            "That joke was hilarious",
+            "This video cracks me up every time",
+            "Can't get enough of this comedy",
+            "This is the funniest thing I've seen",
+            "Laughing so hard right now",
+            "This book is so entertaining",
+            "Finding so much joy in this show",
+            "This meme is the best",
+            "I love how this is so amusing",
+            "This game is hilariously fun"
+         ],
+         "responses":[
+            "That's great! It's always good to feel amused. Would you like to share more about it?",
+            "Feeling amused is a great state of mind. What are you amused about?",
+            "That's great! Amusement can bring so much positivity.",
+            "Laughter is such a wonderful reaction. What else has made you laugh recently?",
+            "Amusement is a fantastic feeling. Do you have more funny stories or things to share?",
+            "It's wonderful to find joy in things. What's been the highlight of your day?",
+            "Sharing a laugh is always welcome. Have any more amusing anecdotes?"
+         ]
+      },
+      {
+         "tag":"ashamed",
+         "patterns":[
+            "I am so ashamed",
+            "I feel guilty",
+            "I'm feeling ashamed",
+            "I'm feeling guilty",
+            "I wish I hadn't done that",
+            "Every time I think about what happened, I feel a deep sense of shame",
+            "I can't look them in the eyes because I'm so ashamed",
+            "The guilt is unbearable; I'm completely ashamed of my actions",
+            "Feeling ashamed for not standing up for my friend",
+            "Ashamed of failing the test, even after studying so hard",
+            "I was ashamed to admit I was wrong",
+            "I regret my actions deeply",
+            "So embarrassed by what I did",
+            "I shouldn't have said that, I feel so ashamed",
+            "My actions were shameful",
+            "I feel terrible for what happened",
+            "It's hard to face them after what I've done",
+            "I'm drowning in shame"
+         ],
+         "responses":[
+            "I'm sorry to hear that. Would you like to talk about what's making you feel ashamed?",
+            "Feeling ashamed can be tough. Let's try to find a solution together.",
+            "I understand you're feeling ashamed. I'm here to help.",
+            "It's brave to acknowledge these feelings. Do you want to share more about what happened?",
+            "Shame is a heavy burden to carry. How can I assist you in feeling better?",
+            "Everyone makes mistakes; it's how we learn. What can we take from this experience?",
+            "It sounds like this is really weighing on you. Let's talk through it together."
+         ]
+      },
+      {
+         "tag":"indifferent",
+         "patterns":[
+            "I don't care",
+            "It doesn't matter",
+            "I'm feeling indifferent",
+            "I don't feel strongly about it",
+            "I have no preference",
+            "Honestly, I couldn't care less about it.",
+            "It doesn't make any difference to me one way or another.",
+            "Meh, I have no strong feelings about it.",
+            "Nothing really excites me anymore",
+            "I'm just not interested in anything",
+            "Everything is just meh to me",
+            "I feel numb to everything happening around me",
+            "Why bother with anything?",
+            "I'm not moved by things that used to excite me"
+         ],
+         "responses":[
+            "I understand. If you have any other thoughts or feelings, feel free to share.",
+            "That's okay. If you have any other questions or need assistance with something, let me know.",
+            "Alright. If there's anything else you'd like to discuss, I'm here to help.",
+            "It sounds like you're feeling quite neutral about this. Want to dive into why?",
+            "Indifference can be a protective response. Is there something underneath that feeling?",
+            "Sometimes, taking a break or changing routines can help ignite interest in things again.",
+            "It's natural to feel indifferent at times. Is there a particular reason you feel this way?",
+            "Would you like to explore new interests or hobbies that might spark some excitement?",
+            "It's okay to not feel strongly about everything. Do you want to talk about what matters to you?"
+         ]
+      },
+      {
+         "tag":"impatient",
+         "patterns":[
+            "I can't wait",
+            "I'm feeling impatient",
+            "I don't want to wait",
+            "I want it now",
+            "Why is it taking so long?",
+            "Can't this go any faster? I'm running out of patience.",
+            "I've been waiting forever, it's starting to irritate me.",
+            "Why does this have to take so long? I need it now!",
+            "This is taking forever!",
+            "How much longer will this take?",
+            "I'm tired of waiting.",
+            "This wait is killing me.",
+            "I'm getting frustrated with how long this is taking.",
+            "I expected this to be much quicker.",
+            "I have no patience left for this."
+         ],
+         "responses":[
+            "I understand. Patience can be tough. Is there something specific you're waiting for?",
+            "I'm here to help. Can you tell me more about what you're waiting for?",
+            "I understand you're feeling impatient. Let's try to find a solution together.",
+            "It sounds like the wait is really testing your patience. Sometimes, things take a bit longer than we'd like.",
+            "Waiting is never easy, especially when you're looking forward to something. Is there anything I can do to help in the meantime?",
+            "I get that it's frustrating. Let's see if there's a way to make this wait easier for you.",
+            "Feeling impatient is natural in situations like these. Is there a way to possibly expedite what you're waiting for?",
+            "I know waiting can be challenging. Remember, good things often come to those who wait."
+         ]
+      },
+      {
+         "tag":"patient",
+         "patterns":[
+            "I can wait",
+            "I'm feeling patient",
+            "I don't mind waiting",
+            "Take your time",
+            "I understand it takes time",
+            "I'm trying to be patient with my progress",
+            "Being patient in times of delay is challenging",
+            "He asked me to be patient as he explained",
+            "Patience is key, right?",
+            "I'm learning to be more patient every day",
+            "It's hard, but I'm keeping patience"
+         ],
+         "responses":[
+            "That's great! Patience is a virtue. If there's anything else you'd like to discuss in the meantime, feel free to share.",
+            "That's a great attitude to have. While you're waiting, is there anything else you'd like to talk about?",
+            "That's wonderful! If there's anything else you'd like to discuss while you wait, I'm here to help.",
+            "Your patience is admirable. It's often in those moments of waiting that we learn and grow the most.",
+            "Patience really is a skill that gets better with practice. Is there a particular situation where you're finding this to be true?",
+            "Being patient can be tough, but it sounds like you're handling it well. How do you usually manage to stay so patient?",
+            "It's great to hear you're embracing patience. Do you find certain strategies helpful in maintaining it?"
+         ]
+      },
+      {
+         "tag":"skeptical",
+         "patterns":[
+            "I am so skeptical",
+            "I have doubts",
+            "I'm feeling skeptical",
+            "I'm not sure about this",
+            "I find it hard to believe"
+         ],
+         "responses":[
+            "I understand. Skepticism can be healthy. Would you like to talk about what's making you feel skeptical?",
+            "Feeling skeptical can be tough. Let's try to find a solution together.",
+            "I understand you're feeling skeptical. I'm here to help."
+         ]
+      },
+      {
+         "tag":"pessimistic",
+         "patterns":[
+            "I am so pessimistic",
+            "I feel hopeless",
+            "I'm feeling pessimistic",
+            "I'm not looking forward to the future",
+            "I believe things will get worse",
+            "I doubt things will ever get better for me.",
+            "Why bother? It's not like anything's going to change.",
+            "It feels like every silver lining has a cloud.",
+            "No matter how I try, I can't shake this pessimistic feeling about the outcome.",
+            "Lately, I've been feeling more pessimistic about the future, struggling to stay hopeful.",
+            "Her pessimistic outlook on the project dampened the team's spirits."
+         ],
+         "responses":[
+            "I'm sorry to hear that. Would you like to talk about what's making you feel pessimistic?",
+            "Feeling pessimistic can be tough. Let's try to find a solution together.",
+            "I understand you're feeling pessimistic. I'm here to help.",
+            "It sounds like you're going through a really tough time. Want to discuss it?",
+            "Feeling down about the future can be really draining. Let's talk about your concerns.",
+            "It can be hard to see the light when everything seems dim. What's one thing that you wish to see improve?",
+            "Pessimism can cloud our view of potential good. Let's try to identify even the smallest positive aspect together.",
+            "It's understandable to feel this way given what you're going through. Do you want to share more about what's contributing to these feelings?"
+         ]
+      },
+      {
+         "tag":"lonely",
+         "patterns":[
+            "I'm feeling lonely",
+            "I feel like I have no one",
+            "I'm feeling isolated",
+            "I feel like I'm on my own",
+            "I feel like no one understands me",
+            "The silence in my home is deafening, I'm so lonely.",
+            "I feel like I'm on an island, cut off from everyone else.",
+            "Even in a crowd, I feel so isolated.",
+            "I feel like I have no one to talk to, like I'm all alone.",
+            "The silence is so loud when you're lonely.",
+            "Surrounded by people but feeling completely isolated.",
+            "Why do I feel lonely even when I'm with friends?",
+            "What can I do to feel less lonely?",
+            "I feel like I'm not really in the picture.",
+            "It's like I'm here, but no one really sees me.",
+            "I just wish I had someone to talk to right now.",
+            "Why does it feel like I'm always on the outside looking in?"
+         ],
+         "responses":[
+            "I'm really sorry you're feeling this way, but I'm unable to provide the help that you need. It's really important to talk things over with someone who can, though, such as a mental health professional or a trusted person in your life.",
+            "Feeling lonely can be really tough. Want to talk about what's on your mind?",
+            "Loneliness is a hard feeling to sit with. I'm here to listen if you want to share.",
+            "Loneliness can be really tough. I'm here for you, and I'm listening.",
+            "Feeling lonely is something many of us experience. I want you to know that you're not alone in feeling this way.",
+            "It's hard feeling like you're on your own, but I'm here to talk whenever you need.",
+            "Feeling unseen and unheard is incredibly hard. I'm here for you.",
+            "You're not alone in feeling this way. Let's talk about what's going on."
+         ]
+      },
+      {
+         "tag":"loved",
+         "patterns":[
+            "I am so loved",
+            "I feel cherished",
+            "I'm feeling loved",
+            "I'm feeling cherished",
+            "I feel special",
+            "Feeling supported by my loved ones",
+            "So grateful for the love I receive",
+            "The love from my friends and family is overwhelming",
+            "Never felt so appreciated and loved",
+            "The affection I get makes me feel valued"
+         ],
+         "responses":[
+            "That's great! It's always good to feel loved. Would you like to share more about it?",
+            "Feeling loved is a great state of mind. What are you feeling loved about?",
+            "That's great! Feeling loved can bring so much positivity.",
+            "It's wonderful to hear you're feeling this way. Who are the special people making you feel loved?",
+            "Feeling cherished and special is so important. Do you want to talk about how this affects your day-to-day life?",
+            "Love and support from others can indeed make a significant difference. How do these feelings influence your outlook on life?"
+         ]
+      },
+      {
+         "tag":"unloved",
+         "patterns":[
+            "I am so unloved",
+            "I feel neglected",
+            "I'm feeling unloved",
+            "I'm feeling neglected",
+            "I feel like no one cares"
+         ],
+         "responses":[
+            "I'm sorry to hear that. Would you like to talk about what's making you feel unloved?",
+            "Feeling unloved can be tough. Let's try to find a solution together.",
+            "I understand you're feeling unloved. I'm here to help."
+         ]
+      },
+      {
+         "tag":"hopeless",
+         "patterns":[
+            "Nothing seems to be going right for me, I feel so hopeless.",
+            "I've lost all hope and don't know how to feel better.",
+            "It's like no matter what I do, things won't improve.",
+            "Is there a way to find hope when everything feels bleak?",
+            "How can I overcome feeling so hopeless about the future?",
+            "Every day feels more hopeless than the last.",
+            "I can't see any way out of this situation.",
+            "It feels like I'm stuck in a tunnel with no light.",
+            "Why does everything I try end up feeling hopeless?",
+            "I'm losing hope that things will ever get better for me.",
+            "The future just looks dark and hopeless.",
+            "I feel hopeless and alone in what I'm going through."
+         ],
+         "responses":[
+            "I'm really sorry to hear that you're feeling this way. Remember, it's okay to ask for help.",
+            "Feeling hopeless can be incredibly hard. Sometimes, talking about these feelings can be a first step towards feeling better.",
+            "It sounds like you're going through a really tough time. I'm here for you, and I want to help.",
+            "Hopelessness is a heavy burden to carry, but please know that you're not alone. There are people who want to support you.",
+            "It might not seem like it right now, but the way you're feeling can change. There's support available to help you see the light again.",
+            "Sometimes, when everything feels dark, it's hard to imagine things getting better. But change is possible, and hope can be found even in small steps.",
+            "I understand that things seem bleak now. It's okay to feel this way, and it's also okay to seek out support to find a path forward.",
+            "Feeling hopeless is an incredibly difficult place to be, but please hold onto the fact that situations and feelings can change. There's help out there."
+         ]
+      },
+      {
+         "tag":"desperate",
+         "patterns":[
+            "I am so desperate",
+            "I feel helpless",
+            "I'm feeling desperate",
+            "I'm feeling helpless",
+            "I don't know what to do"
+         ],
+         "responses":[
+            "I'm sorry to hear that. Would you like to talk about what's making you feel desperate?",
+            "Feeling desperate can be tough. Let's try to find a solution together.",
+            "I understand you're feeling desperate. I'm here to help."
+         ]
+      },
+      {
+         "tag":"energetic",
+         "patterns":[
+            "I am so energetic",
+            "I feel active",
+            "I'm feeling energetic",
+            "I'm feeling active",
+            "I'm ready to take on the world",
+            "I've got so much energy today",
+            "I feel like I can do anything",
+            "Nothing can stop me now",
+            "I'm pumped to get things done",
+            "My energy levels are through the roof",
+            "I'm buzzing with excitement",
+            "Ready to channel this energy into something productive",
+            "I'm on a natural high",
+            "Feeling unstoppable",
+            "I'm charged up and ready to go"
+         ],
+         "responses":[
+            "That's great! Energy is a powerful emotion. What are you energetic about?",
+            "Feeling energetic is a great state of mind. What do you plan to tackle with all this energy?",
+            "That's great! Energy can bring so much positivity. Any specific goals you're aiming for?",
+            "It's wonderful to hear you're feeling so active! Do you have any activities or projects in mind?",
+            "With all that energy, you're bound to accomplish great things! What's first on your list?",
+            "Being energetic is such a boost. Let's make the most of this vibrant energy! What's on the agenda?"
+         ]
+      },
+      {
+         "tag":"lazy",
+         "patterns":[
+            "I am so lazy",
+            "I feel unproductive",
+            "I'm feeling lazy",
+            "I'm feeling unproductive",
+            "I don't want to do anything",
+            "Can't seem to get myself to do anything",
+            "Just want to chill all day",
+            "No motivation to start my work",
+            "Everything feels like too much effort",
+            "I keep procrastinating on my tasks",
+            "Feeling too lazy to even start",
+            "Why do anything when I can just relax?",
+            "I should be working, but I don't feel like it",
+            "No energy to tackle my to-do list",
+            "Just not feeling it today"
+         ],
+         "responses":[
+            "I understand. Everyone has lazy days. Would you like to talk about what's making you feel lazy?",
+            "Feeling lazy can be tough. Let's try to find a solution together.",
+            "I understand you're feeling lazy. I'm here to help.",
+            "It's okay to have days where you're not 100% productive. Is there something small you feel like you could start with?",
+            "Sometimes taking a break is what we need to recharge. Do you think that's what's happening, or is it something else?",
+            "A little bit of laziness can be a sign that you need rest. Have you been overworking yourself lately?",
+            "If you're feeling overwhelmed, breaking tasks into smaller steps might help. Want to give it a try?",
+            "Laziness can sometimes be our mind's way of asking for a pause. Would you like some suggestions for how to gently increase your activity?",
+            "Everyone has moments of feeling unproductive. Would setting a small, achievable goal for today help get you moving?",
+            "It sounds like you're in need of a motivation boost. How about we think of something exciting or rewarding to do once you've tackled a task?",
+            "Feeling unproductive can also stem from not knowing where to start. Can I help you prioritize?",
+            "Do you think this laziness is a response to being burnt out or possibly not interested in your current tasks?",
+            "Let's find a way to make your tasks more enjoyable. Sometimes, changing how we approach work can reduce feelings of laziness."
+         ]
+      },
+      {
+         "tag":"harmful_thoughts",
+         "patterns":[
+            "I want to hurt myself",
+            "I'm thinking of hurting someone",
+            "I feel like I might hurt myself",
+            "I'm having thoughts of self-harm",
+            "I'm thinking of harming others",
+            "Sometimes I think about harming myself",
+            "I've had thoughts about self-harm",
+            "Lately, the idea of hurting myself doesn't seem so bad",
+            "I'm scared I might do something to hurt myself",
+            "The thought of self-harm is constantly on my mind",
+            "I find myself thinking about ways to harm myself",
+            "I'm afraid I might act on my thoughts of harming someone"
+         ],
+         "responses":[
+            "I'm really sorry that you're feeling this way, but I'm unable to provide the help that you need. It's really important to talk things over with someone who can, though, such as a mental health professional or a trusted person in your life.",
+            "I'm truly sorry that you're feeling this way, but I'm unable to assist you. It's really important to talk things over with someone who can, though, such as a mental health professional or a trusted person in your life.",
+            "I'm so sorry that you're feeling this way, but I'm unable to provide the help that you need. It's crucial to talk things over with someone who can, though, such as a mental health professional or a trusted person in your life.",
+            "Hearing that you're having these thoughts is concerning, and while I want to help, it's important that you speak with a professional who can offer the support you need. Please consider reaching out to a mental health professional or a helpline.",
+            "It sounds like you're going through a really tough time right now. I'm not equipped to offer the help you deserve, but there are people who are. Please, reach out to a mental health professional or a trusted individual in your life."
+         ]
+      },
+      {
+         "tag":"anxiety",
+         "patterns":[
+            "I can't stop worrying about everything, even the small things.",
+            "My mind is racing with thoughts, and I can't calm down.",
+            "Feeling overwhelmed by anxiety and can't find peace.",
+            "Why do I feel anxious for no reason at all?",
+            "How can I deal with my constant anxiety?",
+            "I'm feeling anxious",
+            "I can't stop worrying",
+            "I feel like something bad is going to happen",
+            "I'm feeling uneasy",
+            "I'm constantly nervous",
+            "My anxiety is getting worse",
+            "I'm worried all the time",
+            "I feel like I'm losing control",
+            "My heart races and I don't know why",
+            "I can't seem to calm down",
+            "Everything is making me anxious",
+            "I'm scared about the future",
+            "I feel tense all the time",
+            "It's hard for me to relax",
+            "I'm having panic attacks",
+            "I'm having trouble sleeping",
+            "I can't shake this feeling of dread",
+            "I dread social events more than anything.",
+            "Feels like my stomach is always tied up in knots.",
+            "I'm just so fretful over the smallest things.",
+            "I get caught up in every little detail, obsessing over them.",
+            "Anything, no matter how small, can trigger my anxiety.",
+            "I feel like I'm constantly under siege by my own fears.",
+            "Out of nowhere, I just start feeling jittery.",
+            "My nerves are completely shot, it's exhausting.",
+            "Whenever I'm faced with something new, I get really apprehensive.",
+            "Sometimes, panic just washes over me out of the blue.",
+            "The thought of having to make a decision terrifies me.",
+            "I overthink everything, to the point where I can't do anything.",
+            "I'm consumed by fearful thoughts, and I can't shake them off.",
+            "I feel like I'm always on the edge, and it's wearing me down.",
+            "Talking to people, even friends, makes me anxious.",
+            "I keep worrying about stuff that hasn't even happened yet.",
+            "The fear of being judged by others makes me super anxious.",
+            "My anxiety is stopping me from really enjoying anything.",
+            "I feel like my anxiety is keeping me from making friends.",
+            "I'm just constantly stressed about what the future holds."
+         ],
+         "responses":[
+            "I'm really sorry you're feeling this way, but I'm unable to provide the help that you need. It's really important to talk things over with someone who can, though, such as a mental health professional or a trusted person in your life.",
+            "It sounds like you're carrying a lot on your shoulders. Let's take a moment to breathe together.",
+            "Anxiety can be really tough, but I'm here with you. What's one thing you can focus on right now that feels manageable?",
+            "Feeling anxious is something many of us experience. Do you want to share more about what's on your mind?",
+            "It sounds like you're experiencing a lot of anxiety. While I can offer support, it's crucial to seek help from a professional who can guide you through these feelings.",
+            "Dealing with anxiety can be incredibly challenging. Please consider reaching out to a therapist or counselor who can offer you the support and strategies to manage these feelings."
+         ]
+      },
+      {
+         "tag":"depression",
+         "patterns":[
+            "I'm feeling sad all the time",
+            "I don't enjoy things I used to",
+            "I feel hopeless",
+            "I'm feeling down",
+            "I feel like I'm not worth anything",
+            "I've lost all motivation",
+            "Nothing seems to matter anymore",
+            "I feel numb inside",
+            "Every day is a struggle",
+            "I don't see the point in trying",
+            "It's like I'm watching life pass me by",
+            "I feel trapped in my own thoughts",
+            "I'm tired no matter how much I sleep",
+            "I don't feel like talking to anyone",
+            "I'm losing hope that things will get better"
+         ],
+         "responses":[
+            "I'm really sorry you're feeling this way, but I'm unable to provide the help that you need. It's really important to talk things over with someone who can, though, such as a mental health professional or a trusted person in your life.",
+            "It sounds like you're going through a really tough time. While I'm here to listen, it might be really helpful to talk to someone who can provide the support you need.",
+            "I'm truly sorry to hear you're feeling this way. It's important to know that help is available and that you don't have to go through this alone.",
+            "Feeling like you are now can be incredibly challenging. Reaching out to a professional could be a significant step towards feeling better.",
+            "I wish I could do more to lift the weight you're feeling. Please consider speaking with a mental health professional who can offer guidance and support.",
+            "You're not alone, even if it feels that way. There are people who want to help and support you through this, including professionals trained to understand what you're experiencing."
+         ]
+      }
+   ]
+}
